@@ -51,7 +51,7 @@
     <script>
         let estatuses = [];
         let prioridades = [];
-        const url = "http://localhost/app_tareas_php/php/crud";
+        const url = "./php/crud";
 
         const traerEstatuses = async () => {
             const urlMetodo = `${url}/obtenerTareasStatus.php`;
