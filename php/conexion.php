@@ -1,9 +1,9 @@
 <?php
 	$mysqli = new mysqli(
-        'localhost',
-        'root',
-        '',
-        'tareas_app'
+        'l0ebsc9jituxzmts.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+        'l0s712u1fq67vgif',
+        'kbfmvy2l5uqm7tlb',
+        'zjlihp5zmsiyd8w9'
     );
 
 	if ($mysqli->connect_errno) {
